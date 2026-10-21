@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "servant-mod",
+	"version": "${version}",
+	"name": "Servant Mod",
+	"description": "Hire servants who actually work: give them a duty and they mine ore, fell trees, harvest crops, collect drops and stow it all in your chests. Real orders, a real pack, and a wage of food.",
+	"authors": [
+		"Becky Tidus"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/servant-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.beckytidus.servantmod.ServantMod"
+		],
+		"client": [
+			"com.beckytidus.servantmod.ServantModClient"
+		]
+	},
+	"mixins": [
+		"servant-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

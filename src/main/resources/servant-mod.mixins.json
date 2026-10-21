@@ -1,0 +1,1 @@
+{"required":true,"package":"com.beckytidus.servantmod.mixin","compatibilityLevel":"JAVA_21","mixins":["PlayerManagerServantChatMixin"],"client":["EntityRenderManagerServantMixin","InGameHudServantMixin"],"injectors":{"defaultRequire":1},"overwrites":{"requireAnnotations":true}}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:book",
+    "minecraft:emerald"
+  ],
+  "result": {
+    "count": 1,
+    "id": "servant-mod:servant_ledger"
+  }
+}
